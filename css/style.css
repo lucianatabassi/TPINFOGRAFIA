@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  max-width: 100vw;
+  font-size: 10px;
+
+}
+html * {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(../img/fondo1.png);
+  background-repeat: no-repeat;
+  background-color: #F1FFC8;
+  margin: 0px;
+ /* width: 100%;*/
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/*.intro{
+  /*width: 1920px;
+  height: 1080px;
+  /*background-image: url(../img/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}*/
+
+.intro{
+  width: 1920px;
+  height: 1080px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #760035;
+  /*width: 100%;*/
+}
+
+h1{
+  /*color: white;*/
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  color: #760035;
+}
+
+#titulos {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+.col1a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  width: 45%;
+  
+}
+
+.col2a{
+  
+  width: 45%;
+}
+.cont-imagen{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+}
+.img{
+  height: 65%;
+  width: 65%;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+
+
+.nucleo1 {
+  width: 1920px;
+  height: 1500px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ /* margin: 0 50px 0 50px;*/
+}
+
+.col1b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #760035;
+  margin-top: 300px;
+}
+
+.desierto {
+  margin-top: 150px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 49px;
+  color: #760035;
+}
+
+.col2b {
+  width: 45%;
+}
+.cont-gif {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.gif1 {
+  width: 200%;
+  height: 200%;
+  margin-top: 330px;
+}
+
+#ATACAMA {
+  width: 1920px;
+  height: 2374px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /*justify-content: center;*/
+  /*align-items: center;
+  align-content: center;*/
+}
+
+.col3b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.img-atacama {
+  width: 100%;
+  height: auto;
+}
+
+.col4b {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  height: 10%;
+}
+
+.img-chile {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  width: 50%;
+  
+  
+}
+
+.chile {
+  position: relative;
+  bottom: 400px ;
+  height: 100%;
+  width: 100%;
+}
+
+.col5b {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.torta-chile {
+  width: 50%;
+}
+
+.torta {
+  position: relative;
+  right: 100px;
+  bottom: 680px ;
+  height: auto;
+  width: 100%;
+  
+}
+
+.flecha1 {
+  position: relative;
+  left: 40px;
+  bottom: 1135px ;
+}
+
+.texto-desierto {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #760035;
+  position: relative;
+  right: 156px;
+  bottom: 1148px ;
+}
+
+.flecha2 {
+  position: relative;
+  left: 268px;
+  bottom: 1294px ;
+}
+
+.texto-desierto-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #760035;
+  position: relative;
+  left: 568px;
+  bottom: 1416px ;
+}
+
+#Y2K {
+  width: 1920px;
+  height: 1500px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ /* margin: 0 50px 0 50px;*/
+}
+
+.col1c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+.texto-y2k-1, .texto-y2k-2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #760035;
+  
+}
+
+.texto-y2k-3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #760035;
+  
+}
+
+.flecha3 {
+  position: relative;
+  left: 466px;
+  width: 50%;
+  height: auto;
+}
+
+#Y2K-CARACTERISTICAS {
+  width: 1920px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /*justify-content: center;*/
+  /*align-items: flex-start;
+  align-content: center;*/
+ /* margin: 0 50px 0 50px;*/
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.cont-caracteristicas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*align-self: flex-end;*/
+}
+
+.col1d {
+  margin-right: 100px;
+}
+
+.texto-caracteristicas {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #760035;
+  margin-top: 113px;
+  
+}
+
+#tc2 {
+  margin-top: 0;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.cor1 {
+  position: relative;
+  top: 12px;
+  left: 182px;;
+}
+
+.cor2 {
+  position: relative;
+  top: -89px;
+  left: 68px;;
+}
+
+.cor4 {
+  position: relative;
+  top: -164px;
+  left: 154px;; 
+}
+
+#tc3 {
+  margin-top: 0;
+}
+
+.cor5 {
+  position: relative;
+  top: 0;
+  left: 154px;; 
+}
+.cor6 {
+  position: relative;
+  bottom: 100px;
+  left: 58px;; 
+}
+.cor7 {
+  position: relative;
+  bottom: 0px;
+  left: 109px;; 
+}
+.cor8 {
+  position: relative;
+  bottom: 100px;
+  left: 13px;; 
+}
+
+#FAMOSAS {
+  width: 1920px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ /* margin: 0 50px 0 50px;*/
+}
+
+.texto-famosas {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #760035;
+  margin-top: 0;
+}.carousel {
+  min-height: 800px;
+  width: 1900px;
+  
+}
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  user-select: none;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-famosas {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #760035;
+  margin-bottom: 70px;
+}
+
+.texto-famosas {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #760035;
+  margin-top: 30px;
+}
