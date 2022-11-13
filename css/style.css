@@ -2,7 +2,7 @@
 
 html {
   max-width: 100vw;
-  font-size: 10px;
+ /* font-size: 10px;*/
 
 }
 html * {
@@ -15,10 +15,13 @@ body {
   background-repeat: no-repeat;
   background-color: #F1FFC8;
   margin: 0px;
- /* width: 100%;*/
+  width: 100%;
   padding: 0px;
   overflow-x: hidden;
+  font-size: 10px;
 }
+
+
 
 /*.intro{
   /*width: 1920px;
@@ -422,3 +425,52 @@ h1{
   color: #760035;
   margin-top: 30px;
 }
+
+#TRIVIA {
+  width: 1920px !important;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  color: #760035;
+  background-image: url(../img/fondo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.titulo-trivia {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.boton-trivia {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #760035;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: #760035;
+  border-top-width: 3px;
+  border-bottom-width: 6px;
+  border-left-width: 3px;
+  border-right-width: 6px;
+  padding: 28px;
+  margin-top: 70px;
+  font-size: 4rem;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
